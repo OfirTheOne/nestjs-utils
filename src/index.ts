@@ -1,16 +1,3 @@
-
-
-
-import { ArgumentMetadata, PipeTransform } from "@nestjs/common";
-
-export class EntityExistsPipe implements PipeTransform<string> { 
-    constructor() { }
-    async transform(value: string, metadata: ArgumentMetadata) {
-        
-        return value;
-    }
-
-}
-
- 
-
+export * from './pipes/common';
+export * from './pipes/entity';
+export * from './nestjs-utils.module';

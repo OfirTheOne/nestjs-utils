@@ -1,0 +1,4 @@
+
+test-app/**/**
+test-app/playground/node_modules
+src
